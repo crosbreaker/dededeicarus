@@ -105,7 +105,7 @@ async function doneBuilding() {
 	var finalBytes = parseInt(new TextDecoder().decode(finalSizeFile));
 	console.log("final bytes: " + finalBytes);
 	var blob = emulator.disk_images.hda.get_as_file().slice(0, finalBytes, "application/octet-stream");
-	downloadButton.download = "badrecovery_" + getTime() + "_" + uploadedName;
+	downloadButton.download = "dededeicarus_" + getTime() + "_" + uploadedName;
 	downloadButton.href = URL.createObjectURL(blob);
 	downloadButton.style.display = "block";
 	downloadButton.click();

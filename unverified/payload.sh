@@ -8,6 +8,7 @@ mexit(){
         echo "Error detected.  Please report this."
 	echo "Here is your disk layout:"
 	fdisk -l
+        printf "\033]input:on\a"
 	/bin/sh
 }
 

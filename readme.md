@@ -1,5 +1,5 @@
 # This is used to do [Icarus](https://github.com/HarryJarry1/Icarus-Lite) on keyrolled dedede chromebooks.
-It is recommened to use [this 124 recovery image](https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15823.40.0_dedede_recovery_stable-channel_mp-v48.bin.zip) (it doesn't matter that it is 124, even if your on kernver 4 or 5)
+It is recommened to use [this 124 recovery image](https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15823.40.0_dedede_recovery_stable-channel_mp-v48.bin.zip) (it doesn't matter that it is 124, even if your on kernver 4)
 # Usage instructions:
 ```
 git clone https://github.com/HarryJarry1/dededeicarus

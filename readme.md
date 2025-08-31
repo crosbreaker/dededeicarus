@@ -20,7 +20,7 @@ sudo ./build_badrecovery.sh -i <image.bin> -t unverified
 6. Use [Icarus](https://github.com/HarryJarry1/Icarus-Lite) to unenroll
 
 ## WebBuilder?
-Yes!  [here](https://dededeicarus.crosbreaker.dev)
+Yes!  [here](https://dededeicarus.crosbreaker.dev/builder)
 ## Why does this work?
 I discovered that vpd and crossystem are set to not block devmode when oobescape is done, so you can recover to unverified images.  This is because fwmp is never checked for when recovering.
 thanks to olyb for help wiping stateful and for badrecovery

@@ -25,4 +25,4 @@ Yes!  [here](https://dededeicarus.crosbreaker.dev/builder)
 I discovered that vpd and crossystem are set to not block devmode when oobescape is done, so you can recover to unverified images.  This is because fwmp is never checked for when recovering.
 thanks to olyb for help wiping stateful and for badrecovery
 ## What changes have been made to badrecovery for this to work?
-I added the [PKImetadata](https://github.com/HarryJarry1/dededeicarus/tree/main/unverified/PKIMetadata) folder, and updated [payload.sh](https://github.com/HarryJarry1/dededeicarus/blob/main/unverified/payload.sh) to wipe stateful, mount stateful, copy PKImetadata to stateful/unencrypted, then disable devmode.
+I added the [PKImetadata](./unverified/PKIMetadata) folder, and updated [payload.sh](./unverified/payload.sh) to wipe stateful, mount stateful, copy PKImetadata to stateful/unencrypted, then disable devmode.

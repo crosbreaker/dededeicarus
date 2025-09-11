@@ -10,7 +10,7 @@ sudo ./build_badrecovery.sh -i <image.bin> -t unverified
 ```
 **MAKE SURE YOU USE ``unverified`` IF YOU DON'T, IT WILL DESTORY YOUR LOCAL CHROMEOS.**
 # On Chromebook instructions:
-1. Complete [oobescape](https://github.com/HarryJarry1/dededeicarus/blob/main/oobescape.md) or [sh1ttyOOBE](https://github.com/crosbreaker/sh1ttyOOBE)
+1. Complete [oobescape](./oobescape.md) or [sh1ttyOOBE](https://github.com/crosbreaker/sh1ttyOOBE)
 # Steps:
 1. Build and put a [dededeicarus](https://github.com/HarryJarry1/dededeicarus) image on a USB drive or a SD card
 2. Press power + esc + refresh
